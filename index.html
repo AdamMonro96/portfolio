@@ -1,45 +1,200 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
+<head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
-    <title>Портфолио Junior верстальщика</title>
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Old+Standard+TT&display=swap&subset=cyrillic" rel="stylesheet">
-  </head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="discription" content="Сайт-портфолио Владимира">
+    <meta name="keywords" content="портфолио, сайт-визитка">
+    <title>Сайт-портфолио</title>
+    <link rel="stylesheet" href="main-style.css">
+    <link rel="stylesheet" href="media-768.css">
+</head>
+<body>
 
-  <body>
-    <header class="page-header">
-      <div class="container"><a type="tel">Телефон: +7 900-133-40-98</a></div>
-    </header>
+    <!-- Навигация -->
+    <header>
+    <nav class="container">
+        <ul class="navigation">
+<li><a href="#about">Обо мне</a></li>
+<li><a href="#cases">Мои работы</a></li>
+<li><a href="#tech">Технологии</a></li>
+<li><a href="#photo">Фото</a></li>
+<li><a href="#contact">Связаться</a></li>
+        </ul>
+    </nav>
+</header>
 
-    <section class="hero-image">
-      <div class="container"><h1 class="heading">Владимир Струков</h1>
-      <p>Бывший маркетолог</p>
+    <!-- Главный экран -->
+    <main class="container">
+
+        <section class="mainscreen">
+
+            <h1> Разрабатываю сайты, которые продают. </h1>
+<h2>Frontend-разрабочик с маркетинговым подходом.</h2>
+<button><a href="#about">Узнать больше</a></button>
+
+        </section>
+        
+           <!-- Обо мне -->
+           
+<section class="title" >
+<h2 id="about">Обо мне в двух словах</h2>
+        </section>
+
+<section class="section-grid">
+    
+<section class="block contacts">
+
+<h2>Владимир Струков</h2>
+<p>Начинающий сексуальный разработчик. </p>
+<a href="https://vk.com/ymonitor" target="_blanc">Вконтакте</a>
+<a href="https://t.me/hot_marketer" target="_blanc">Телеграм</a>
+</section>
+
+<section class="block about">
+<h2>Как я начал кодить?</h2>
+<p>До 2022 года я работал маркетологом. Во время кризиса разочаровался в профессии и решил попробовать себя в IT.</p>
+<p>Ранее я уже обучался этому в университете, но бросил. Сейчас пробую себя во frontend-разработке. </p>
+</section>
+
+<section class="block skills">
+    <h2>Образование</h2>
+    <ul>
+        <li>ДЛИ "Интеллект"</li>
+        <li>ДонНТУ - бакалавр</li>
+    </ul>
+</section>
+
+<section class="block softskills">
+    <h2>Soft-skills</h2>
+    <ol>
+        <li>Работаю на результат и конечную цель, а не на процесс.</li>
+        <li>Не боюсь отвечать за последствия и результаты своей работы.</li>
+        <li>Быстро нахожу и осваиваю новую информацию без "разжевывания".</li>
+    </ol>
+</section>
+
+</section>
+<!-- Тут начинается портфолио -->
+<section class="title">
+    <h2 id="cases">Мои работы</h2>
+</section>
+
+            <section class="portfolio">
+
+                <a class="case">
+<h3>Первый сайт</h3>
+<p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, quasi?
+</p>
+                </a>
+
+                <a class="case">
+                    <h3>Второй сайт</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, quasi?</p>
+                </a>
+
+                <a class="case">
+                    <h3>Третий сайт</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, quasi?</p>
+                </a>
+
+                <a class="case">
+                    <h3>Четвертый сайт</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, quasi?</p>
+                </a>
+
+                <a class="case">
+                    <h3>Пятый сайт</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, quasi?</p>
+                </a>
+
+                <a class="case">
+                    <h3>Шестой сайт</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, quasi?</p>
+                </a>
+
+
+            </section>
+
+            <!-- Блок "мои навыки" -->
+            <section class="title" >
+                <h2 id="tech">Стек навыков</h2>
+                        </section>
+
+            <section class="container flex-block">
+
+                <div class="skill-block">
+                    <img src="/Сайт-портфолио/icons/html.png" alt="html">
+                </div>
+
+                <div class="skill-block">
+                    <img src="/Сайт-портфолио/icons/css.png" alt="css">
+                </div>
+
+                <div class="skill-block">
+                    <img src="/Сайт-портфолио/icons/js.png" alt="js">
+                </div>
+            </section>
+
+            <section class="title" >
+                <h2 id="photo">Немного фото</h2>
+                        </section>
+
+            <section class="container">
+                <section class="gallery">
+                    <img src="/Сайт-портфолио/photos/2.jpg" alt="Фото в топовых очках">
+                    <img src="/Сайт-портфолио/photos/1.jpg" alt="Соски-нереалки">
+                    <img src="/Сайт-портфолио/photos/3.jpg" alt="Пися на природе">
+
+                </section>
+
+
+            </section>
+
+            <!-- Тут блок формы -->
+            <section class="title">
+                <h2 id="contact">Давайте сотрудничать</h2>
+            </section>
+
+            <section class="form">
+
+    <h3>Заполните форму ниже и мы обсудим ваш проект</h3>
+    <form id="contact">
+        <!-- Левая часть формы -->
+        <div class="form-raw">
+
+        <div class="form-part">
+        <label for="name">Как вас зовут?</label>
+        <input id="name" type="text" placeholder="Введите имя сюда">
+        </div>
+
+        <div class="form-part">
+            <label for="email">Электронный адрес</label>
+            <input id="email" type="email" placeholder="Не забудьте собачку">
+        </div>
+
+        <div class="form-part">
+            <label for="tel">Номер для связи</label>
+            <input id="tel" type="tel" placeholder="Номер в формате +7">
+        </div>
+
     </div>
-    </section>
 
-    <section class="intro">
-      <div class="container"><h2 class="subheading">Давайте познакомимся</h2>
-      <h3>Верстальщик-самоучка</h3>
-      <p>В июне 2022 года начал изучать верстку. Сюда буду загружать свои работы.</p>
-      <h3>Чем могу быть полезен</h3>
-      <p>Пока ничем.</p>
+    <div class="form-raw">
+        <div class="form-part">
+            <label for="comment">Расскажите о проекте</label>
+            <textarea id="comment" rows="10" cols="25"> </textarea>
+        </div>
+        
+        <div>
+            <button form="contact">Отравить заявку</button>
+        </div>
+
     </div>
-    </section>
-
-    <section class="portfolio">
-      <div class="container"><h2 class="subheading">Мои работы</h2>
-
-      <h3>Магазин товаров для дома</h3>
-      <p>Мой первый сайт.</p>
-
-      <h3>Блог начинающего верстальщика</h3>
-      <p>Статический блог про обучение HTML и CSS.</p>
-      </div>
-    </section>
-
-    <footer class="page-footer">
-      <div class="container">Контакты в подвале</div>
-    </footer>
-  </body>
+    </form>
+</section>
+    </main>
+</body>
 </html>
